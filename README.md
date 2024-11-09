@@ -74,6 +74,8 @@ select * from Production.Product
 
 
 -- CTE for Total Sales and Revenue per Product
+
+
 WITH ProductSales AS (
     SELECT 
         SOD.ProductID, 
