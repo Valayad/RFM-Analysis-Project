@@ -95,6 +95,7 @@ WITH ProductSales AS (
 ),
 
 -- CTE for Frequently Purchased Product Pairs
+
 ProductPairs AS (
     SELECT  
         SOD1.ProductID AS PRODUCT_A,
@@ -113,6 +114,7 @@ ProductPairs AS (
 )
 
 -- Combine the results from both CTEs
+
 SELECT 
     PS.ProductID,
     PS.Product_Name,
